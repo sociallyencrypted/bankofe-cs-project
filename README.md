@@ -14,6 +14,11 @@ $pip install mysql-connector-python
 
 First, open startup.py, and change the value of "passwd" in line 4 to the password of the root user in your MySQL installation. Then run setup.py to install the required database. After that, you can run main.py to use the project.
 
+ALTERNATE: Edit BankOfE_DatabaseInstaller.sql and change admin names at the end of the file as per your choice. Then run BankOfE_DatabaseInstaller.sql .
+```
+mysql> source \bankofe-cs-project\BankOfE_Databaseinstaller.sql;
+```
+
 ## Acknowledgments
 
 * Thanks to my school teacher, Ms. Pragya Gulati for helping me with this project.
